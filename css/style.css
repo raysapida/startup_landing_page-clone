@@ -424,31 +424,12 @@ th {
   padding: 0;
 }
 
-/* New Styles */
-
-a {
-  color: DarkGray;
-  text-decoration: none; /* no underline */
-  font-family: "Roboto", sans-serif;
-  font-size: large;
+/* Navigation Section */
+.top-navigation {
+  background-color: #fff;
 }
-
-.nav {
-  width: 100%;
-  text-align: center;
-  list-style: none;
+.top-navigation > .content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
 }
-
-.nav img{
-  padding-right: 20em;
-}
-
-.nav li {
-  display: inline;
-}
-
-.nav a {
-  display: inline-block;
-  padding:10px;
-}
-
