@@ -476,6 +476,10 @@ button {
   line-height: 1.33;
 }
 
+button:hover {
+  background: OrangeRed;
+}
+
 .introduction {
   background-image: url('../images/first-background.jpg');
   background-position: center bottom;
