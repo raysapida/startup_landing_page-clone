@@ -504,13 +504,6 @@ button:hover {
 }
 
 .cases .devices {
-  width: 33%;
+  width: 23%;
   display: inline-block;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 0;
-  /* styles to assist with debugging */
-  border: 1px solid black;
-  box-sizing: border-box;
-  height: 4em;
 }
