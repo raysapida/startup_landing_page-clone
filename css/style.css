@@ -504,11 +504,13 @@ button:hover {
 }
 
 .cases .devices {
+  font-family: 'Roboto', sans-serif;
   width: 23%;
   display: inline-block;
 }
 
 footer {
+  font-family: 'Roboto', sans-serif;
   height: 20em;
   text-align: center;
 }
