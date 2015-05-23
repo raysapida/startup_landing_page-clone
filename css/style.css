@@ -499,9 +499,16 @@ button:hover {
   transform: translateY(-50%);
 }
 
+.cases{
+  text-align: center;
+}
+
 .cases .devices {
-  width: 33.3333333%;
+  width: 33%;
   display: inline-block;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
   /* styles to assist with debugging */
   border: 1px solid black;
   box-sizing: border-box;
