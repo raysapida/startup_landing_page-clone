@@ -507,3 +507,18 @@ button:hover {
   width: 23%;
   display: inline-block;
 }
+
+footer {
+  height: 20em;
+  text-align: center;
+}
+
+footer ul,p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+footer ul li {
+  display: inline;
+}
