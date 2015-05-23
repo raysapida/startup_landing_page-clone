@@ -455,7 +455,7 @@ th {
 
 .top-navigation .links .active {
   color: #4c5058;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .top-navigation .links li:hover {
@@ -492,7 +492,7 @@ button:hover {
 
 .introduction > .content {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   color: white;
   text-align: center;
   position: relative;
@@ -502,16 +502,18 @@ button:hover {
 
 .cases{
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .cases .devices {
-  font-family: 'Roboto', sans-serif;
   width: 23%;
   display: inline-block;
 }
 
 footer {
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   height: 20em;
   text-align: center;
 }
