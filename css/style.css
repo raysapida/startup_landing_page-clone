@@ -429,6 +429,7 @@ th {
   background-color: #fff;
   position: fixed;
   width: 100%;
+  z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -498,18 +499,11 @@ button:hover {
   transform: translateY(-50%);
 }
 
-.info {
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  padding-top: 8em;
-  height: 100%;
-}
-
-.info > h1 {
-  margin-bottom: 1em;
-}
-
-.icons li {
+.cases .devices {
+  width: 33.3333333%;
   display: inline-block;
-  padding-right: 1em;
+  /* styles to assist with debugging */
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 4em;
 }
