@@ -513,7 +513,7 @@ footer {
   text-align: center;
 }
 
-footer ul,p {
+footer div {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
