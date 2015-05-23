@@ -498,3 +498,18 @@ button:hover {
   transform: translateY(-50%);
 }
 
+.info {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding-top: 8em;
+  height: 100%;
+}
+
+.info > h1 {
+  margin-bottom: 1em;
+}
+
+.icons li {
+  display: inline-block;
+  padding-right: 1em;
+}
