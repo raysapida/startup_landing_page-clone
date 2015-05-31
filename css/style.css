@@ -53,17 +53,21 @@
 }
 
 button {
+  width: 9.688rem;
   color: white;
-  background: Tomato;
+  background: #f15a29;
   text-shadow: none;
   border-style: none;
   border-radius: 4px;
-  padding: 16px 26px;
+  padding: 1rem 1.5rem;
+  font-size: 1.125rem;
   line-height: 1.33;
 }
 
 button:hover {
-  background: OrangeRed;
+  background-color: #d9400e;
+  border-color: #cf3d0e;
+  cursor: pointer;
 }
 
 .introduction {
@@ -82,6 +86,20 @@ button:hover {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+
+h1, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 25px;
 }
 
 .cases{
