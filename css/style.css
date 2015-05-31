@@ -1,9 +1,19 @@
-/* Navigation Section */
+.links li a {
+  color: #838994;
+  text-decoration: none; /* no underline */
+}
+
+.links .active a {
+  color: #4c5058;
+  text-decoration: none; /* no underline */
+}
+
 .top-navigation {
   background-color: #fff;
   position: fixed;
   top: 0;
   width: 100%;
+  border-bottom: 1px solid #DDD;
   z-index: 9999;
 }
 
@@ -19,6 +29,7 @@
   color: #838994;
   font-size: 16px;
   margin-top: 25px;
+  margin-right: 6em;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -28,8 +39,7 @@
 }
 
 .top-navigation .links .active {
-  color: #4c5058;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .top-navigation .links li:hover {
@@ -37,9 +47,9 @@
   color: #333333;
 }
 
-a {
-  color: DarkGray;
-  text-decoration: none; /* no underline */
+.top-navigation img {
+  padding-top: 1em;
+  padding-left: 6em;
 }
 
 button {
